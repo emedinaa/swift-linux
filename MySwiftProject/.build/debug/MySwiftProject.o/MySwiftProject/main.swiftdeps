@@ -1,0 +1,83 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "myAwesomeString"
+- "awesomeInt"
+- "awesomeDouble"
+- "shoppingList"
+- "n"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "n"
+- "Double"
+- "awesomeDouble"
+- "FloatLiteralType"
+- "*"
+- "shoppingList"
+- "<"
+- "StringLiteralType"
+- "Array"
+- "myAwesomeString"
+- "awesomeInt"
+- "IntegerLiteralType"
+- "print"
+depends-member:
+- ["Sa", "Element"]
+- ["Ps23ArrayLiteralConvertible", "Element"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps14CollectionType", "Element"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps9Indexable", "Element"]
+- ["Ps21MutableCollectionType", "Element"]
+- ["Ps16MutableIndexable", "Element"]
+- ["Ps16MutableSliceable", "Element"]
+- ["Ps30RangeReplaceableCollectionType", "Element"]
+- ["Ps12SequenceType", "Element"]
+- ["Ps10_ArrayType", "Element"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps12_Reflectable", "Element"]
+- ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Sa"
+- "Ps23ArrayLiteralConvertible"
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
+- "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps21MutableCollectionType"
+- "Ps16MutableIndexable"
+- "Ps16MutableSliceable"
+- "Ps30RangeReplaceableCollectionType"
+- "Ps12SequenceType"
+- "Ps10_ArrayType"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps24_DestructorSafeContainer"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/lib/swift/shims/module.map"
+interface-hash: "65ce43910d6f91cfa015d3a0f02e1dde"

@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<MySwiftProject>]
+  MySwiftProject: [<MySwiftProject>]
+
+commands:
+  <MySwiftProject-swiftc>:
+    tool: swift-compiler
+    executable: "/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/emedinaa/ME/swift/MySwiftProject/main.swift"]
+    outputs: ["<MySwiftProject-swiftc>","/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.swiftmodule","/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/main.swift.o"]
+    module-name: "MySwiftProject"
+    module-output-path: "/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.swiftmodule"
+    is-library: false
+    sources: ["/home/emedinaa/ME/swift/MySwiftProject/main.swift"]
+    objects: ["/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/main.swift.o"]
+    import-paths: ["/home/emedinaa/ME/swift/MySwiftProject/.build/debug"]
+    temps-path: "/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/MySwiftProject"
+    other-args: ["-j8","-Onone","-g","-I","/usr/local/include"]
+  <MySwiftProject>:
+    tool: shell
+    inputs: ["<MySwiftProject-swiftc>","/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/main.swift.o"]
+    outputs: ["<MySwiftProject>","/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject"]
+    args: ["/home/emedinaa/DEV/Swift/swift-2.2-SNAPSHOT-2015-12-10-a-ubuntu14.04/usr/bin/swiftc","-o","/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject","/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/main.swift.o","-g","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/MySwiftProject"

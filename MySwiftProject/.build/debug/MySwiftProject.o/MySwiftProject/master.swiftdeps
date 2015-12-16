@@ -1,0 +1,5 @@
+version: "Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
+options: "b4fe89b632189ba873a6a47de5573b64"
+build_time: [503379488, 190284000]
+inputs:
+  "/home/emedinaa/ME/swift/MySwiftProject/main.swift": [503379482, 0]

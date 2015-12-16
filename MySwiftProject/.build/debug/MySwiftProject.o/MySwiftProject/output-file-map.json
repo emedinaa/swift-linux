@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/MySwiftProject/master.swiftdeps"
+  },
+  "/home/emedinaa/ME/swift/MySwiftProject/main.swift": {
+    "dependencies": "/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/MySwiftProject/main.d",
+    "object": "/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/main.swift.o",
+    "swiftmodule": "/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/MySwiftProject/main~partial.swiftmodule",
+    "swift-dependencies": "/home/emedinaa/ME/swift/MySwiftProject/.build/debug/MySwiftProject.o/MySwiftProject/main.swiftdeps"
+  }
+}
